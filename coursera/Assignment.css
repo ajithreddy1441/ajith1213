@@ -1,0 +1,118 @@
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+    font-size: 40px;
+}
+.Chicken,.Beef,.Sushi{
+    background-color: gray;
+    font-size: 15;
+    height: 150px;
+    font-family: cambria;
+    border: 3px solid black;
+    width: 370px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+}
+.Chicken div{
+    background-color:pink;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    width:100px;
+    float: right;
+}   
+.Beef div{
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    float: right;
+}
+.Sushi div{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    float: right;
+}
+p{
+    margin-top: 20px;
+    padding: 20px 15px 20px 20px;
+}
+@media (max-width: 991px) and (min-width: 768px){
+    header{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 40px;
+        font-size: 40px;
+    }
+    .Chicken,.Beef{
+        background-color: gray;
+        font-size: 15;
+        height: 150px;
+        font-family: cambria;
+        border: 3px solid black;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+    .Chicken div{
+        background-color:pink;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 20px;
+        width:100px;
+        float: right;
+    }
+    .Beef div{
+        background-color: brown;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        width: 100px;
+        float: right;
+    }
+    .Sushi div{
+        background-color: rgb(241, 216, 146);
+        border: 2px solid black;
+        text-align: center;
+        width: 100px;
+        font-size: 20px;
+        float: right;
+    }
+    .Sushi{
+        width: 680px;
+        margin-left: 40px;
+        padding-bottom: 0px;
+    }
+    p{
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+@media (max-width: 767px){
+    header{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+        font-size: 40px;
+    }
+    .Chicken,.Beef,.Sushi{
+        background-color: gray;
+        font-size: 15;
+        height: 150px;
+        font-family: cambria;
+        border: 3px solid black;
+        margin-left: 7%;
+        margin-top: 10px;
+    }
+}
